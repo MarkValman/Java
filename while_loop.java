@@ -1,9 +1,20 @@
-/**
- * assignment_1
- */
-public class while_loop {
+import java.util.Scanner;
 
+/**
+ * While loop
+ */
+
+public class while_loop {
     public static void main(String[] args) {
-        System.out.println("Test");
+        Scanner scaner_epta = new Scanner(System.in);
+        String name = "";
+
+        do{
+            System.out.println("Enter your name: ");
+            name = scaner_epta.nextLine();
+        }while(name.isBlank());
+
+        System.out.println("Hello " + name);
     }
+
 }
