@@ -16,26 +16,31 @@ public class pizza {
         this.topping = topping;
     }
 
-    pizza(String bread, String sauce, String cheese){
+    // pizza(String bread, String sauce, String cheese){
         
-        this.bread = bread;
-        this.sauce = sauce;
-        this.cheese = cheese;
-    }
+    //     this.bread = bread;
+    //     this.sauce = sauce;
+    //     this.cheese = cheese;
+    // }
    
-    pizza(String bread, String sauce){
+    // pizza(String bread, String sauce){
         
-        this.bread = bread;
-        this.sauce = sauce;
-    }
+    //     this.bread = bread;
+    //     this.sauce = sauce;
+    // }
 
-    pizza(String bread){
+    // pizza(String bread){
         
-        this.bread = bread;        
-    }
+    //     this.bread = bread;        
+    // }
 
-    pizza(){
+    // pizza(){
         
+    // }
+
+    public String toString() {
+        
+        return bread + "\n" + sauce + "\n" + topping + "\n" + cheese;
     }
 
 }
