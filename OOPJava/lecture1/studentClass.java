@@ -1,16 +1,17 @@
 package lecture1;
 
-public class studentClass {
+// Extends means Student inheritade from Person
+public class studentClass extends Person {
     // Atributes
-    int id;
-    String name;
     int age;
     String program;
 
     // Constructor
     studentClass(int id, String name) {
-        this.id = id;
-        this.name = name;
+        super(id, name);
+
+        this.id = 5;
+        this.name = "zjpo";
     }
 
     // Methods
